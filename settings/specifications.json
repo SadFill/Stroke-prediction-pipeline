@@ -1,17 +1,17 @@
 {
     "description":{
         "X": [
-            "PassengerId",
-            "Pclass",
-            "Name",
-            "Gender",
-            "Age",
-            "SibSp",
-            "Parch",
-            "Ticket",
-            "Fare",
-            "Cabin",
-            "Embarked"
+            "id",
+            "gender",
+            "age",
+            "hypertension",
+            "heart_disease",
+            "ever_married",
+            "work_type",
+            "Residence_type",
+            "avg_glucose_level",
+            "bmi",
+            "smoking_status"
         ],
         "final_columns":[
                     "Gender",
@@ -20,7 +20,7 @@
                     "Fare",
                     "Age"
                 ],
-        "y":"Survived",
+        "y":"stroke",
         "metrics":"accuracy_score"
     },
     "operations":[
